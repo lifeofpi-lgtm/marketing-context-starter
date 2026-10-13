@@ -1,0 +1,21 @@
+# Local macOS files
+.DS_Store
+
+# Common credential and environment files
+.env
+.env.*
+*.pem
+*.key
+
+# Deliberately local-only folders
+private/
+secrets/
+client-data/
+
+# Temporary files
+*.tmp
+~$*
+
+# These patterns do not detect secrets inside other files.
+# They do not remove files already tracked by Git.
+# Review every change before committing.
